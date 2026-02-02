@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    
+</head>
+<body style="font-family: Arial, sans-serif; margin: 0; padding: 20px; background-color: #f8f9fa;">
+
+    <div style="background-color: #343a40; color: white; padding: 10px 20px; display: flex; justify-content: space-between; align-items: center; border-radius: 4px 4px 0 0;">
+        <div style="display: flex; align-items: center;">
+            <span style="font-size: 20px; font-weight: bold; margin-right: 20px;">HR Management</span>
+            <span style="margin-right: 15px; color: #ccc; cursor: pointer;">Home</span>
+            <span style="color: #ccc; cursor: pointer;">Contact</span>
+        </div>
+        <div style="display: flex; gap: 5px;">
+            <input type="text" placeholder="Search..." style="padding: 5px 10px; border-radius: 4px; border: 1px solid #ced4da;">
+            <button style="background-color: #343a40; color: white; border: 1px solid #6c757d; padding: 5px 15px; border-radius: 4px; cursor: pointer;">Search</button>
+        </div>
+    </div>
+
+    <div style="background: white; padding: 20px; border: 1px solid #dee2e6; border-top: none; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+            <h2 style="margin: 0; color: #333;">Employee</h2>
+            <button style="background-color: #007bff; color: white; border: none; padding: 8px 16px; border-radius: 4px; font-weight: bold; cursor: pointer;">+ Add</button>
+        </div>
+
+        <table width="100%" cellspacing="0" cellpadding="12" style="border-collapse: collapse;">
+            <tr style="border-bottom: 2px solid #dee2e6; text-align: left; font-weight: bold;">
+                <td width="5%">ID</td>
+                <td width="20%">Name</td>
+                <td width="25%">Email</td>
+                <td width="15%">Phone</td>
+                <td width="15%">Position</td>
+                <td width="20%">Action</td>
+            </tr>
+            <tr style="border-bottom: 1px solid #eee;">
+                <td>1</td>
+                <td>Fatima Beatriz</td>
+                <td>Fatima Beatriz@gmail.com</td>
+                <td>0985674321</td>
+                <td>Staff</td>
+                <td>
+                    <button style="background-color: #ffc107; border: none; padding: 4px 10px; border-radius: 4px; cursor: pointer;">Edit</button>
+                    <button style="background-color: #dc3545; color: white; border: none; padding: 4px 10px; border-radius: 4px; cursor: pointer;">Delete</button>
+                </td>
+            </tr>
+            <tr style="border-bottom: 1px solid #eee;">
+                <td>2</td>
+                <td>Gabriel Hanna</td>
+                <td>Gabriel Hanna@gmail.com</td>
+                <td>0353674231</td>
+                <td>Staff</td>
+                <td>
+                    <button style="background-color: #ffc107; border: none; padding: 4px 10px; border-radius: 4px;">Edit</button>
+                    <button style="background-color: #dc3545; color: white; border: none; padding: 4px 10px; border-radius: 4px;">Delete</button>
+                </td>
+            </tr>
+            <tr style="border-bottom: 1px solid #eee;">
+                <td>3</td>
+                <td>Charles Diya</td>
+                <td>Charles Diya@gmail.com</td>
+                <td>0347658833</td>
+                <td>Staff</td>
+                <td>
+                    <button style="background-color: #ffc107; border: none; padding: 4px 10px; border-radius: 4px;">Edit</button>
+                    <button style="background-color: #dc3545; color: white; border: none; padding: 4px 10px; border-radius: 4px;">Delete</button>
+                </td>
+            </tr>
+            <tr style="border-bottom: 1px solid #eee;">
+                <td>4</td>
+                <td>Frank Lamdo</td>
+                <td>Frank Lamdo@gmail.com</td>
+                <td>0975444768</td>
+                <td>Manager</td>
+                <td>
+                    <button style="background-color: #ffc107; border: none; padding: 4px 10px; border-radius: 4px;">Edit</button>
+                    <button style="background-color: #dc3545; color: white; border: none; padding: 4px 10px; border-radius: 4px;">Delete</button>
+                </td>
+            </tr>
+            <tr style="border-bottom: 1px solid #eee;">
+                <td>5</td>
+                <td>Louis Tom</td>
+                <td>Louis Tom@gmail.com</td>
+                <td>0789568223</td>
+                <td>Staff</td>
+                <td>
+                    <button style="background-color: #ffc107; border: none; padding: 4px 10px; border-radius: 4px;">Edit</button>
+                    <button style="background-color: #dc3545; color: white; border: none; padding: 4px 10px; border-radius: 4px;">Delete</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div style="width: 600px; margin: 50px auto; border: 1px solid #007bff; border-radius: 4px; background: white;">
+        <div style="background-color: #007bff; color: white; padding: 10px 15px; display: flex; justify-content: space-between; font-weight: bold;">
+            <span>New Employee</span>
+            <span style="cursor: pointer;">&times;</span>
+        </div>
+        <div style="padding: 20px;">
+            <table width="100%" cellpadding="10" border="0">
+                <tr>
+                    <td>Name<br><input type="text" style="width: 100%; padding: 8px; border: 1px solid #ced4da; border-radius: 4px;"></td>
+                    <td>Email<br><input type="text" style="width: 100%; padding: 8px; border: 1px solid #ced4da; border-radius: 4px;"></td>
+                </tr>
+                <tr>
+                    <td>Phone<br><input type="text" style="width: 100%; padding: 8px; border: 1px solid #ced4da; border-radius: 4px;"></td>
+                    <td>Position<br>
+                        <select style="width: 100%; padding: 8px; border: 1px solid #ced4da; border-radius: 4px;">
+                            <option>-- Select Position --</option>
+                            <option>Staff</option>
+                            <option>Manager</option>
+                            <option>CEO</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        Sex<br>
+                        <input type="radio" name="gender"> Male
+                        <input type="radio" name="gender"> Female
+                    </td>
+                </tr>
+            </table>
+            <div style="text-align: right; margin-top: 15px; padding-right: 10px;">
+                <button style="background-color: #28a745; color: white; border: none; padding: 8px 20px; border-radius: 4px; cursor: pointer;">Save</button>
+                <button style="background-color: #6c757d; color: white; border: none; padding: 8px 20px; border-radius: 4px; cursor: pointer;">Cancel</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
