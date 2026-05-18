@@ -1,0 +1,10 @@
+C:\Users\Tyler\source\repos\qlidungcu\qlidungcu\bin\Debug\qlidungcu.exe.config
+C:\Users\Tyler\source\repos\qlidungcu\qlidungcu\bin\Debug\qlidungcu.exe
+C:\Users\Tyler\source\repos\qlidungcu\qlidungcu\bin\Debug\qlidungcu.pdb
+C:\Users\Tyler\source\repos\qlidungcu\qlidungcu\obj\Debug\qlidungcu.csproj.AssemblyReference.cache
+C:\Users\Tyler\source\repos\qlidungcu\qlidungcu\obj\Debug\qlidungcu.Form1.resources
+C:\Users\Tyler\source\repos\qlidungcu\qlidungcu\obj\Debug\qlidungcu.Properties.Resources.resources
+C:\Users\Tyler\source\repos\qlidungcu\qlidungcu\obj\Debug\qlidungcu.csproj.GenerateResource.cache
+C:\Users\Tyler\source\repos\qlidungcu\qlidungcu\obj\Debug\qlidungcu.csproj.CoreCompileInputs.cache
+C:\Users\Tyler\source\repos\qlidungcu\qlidungcu\obj\Debug\qlidungcu.exe
+C:\Users\Tyler\source\repos\qlidungcu\qlidungcu\obj\Debug\qlidungcu.pdb
